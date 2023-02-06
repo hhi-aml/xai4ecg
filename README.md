@@ -27,7 +27,7 @@ This script downloads [PTB-XL from PhysioNet](https://physionet.org/content/ptb-
 
     ./download_segmentations.sh
 
-This will download [soft segmentations for PTB-XL 1.0.1]() from zenodo and stores at `data/ptbxl/ptbxl_segmentations/`
+This will download [soft segmentations for PTB-XL 1.0.1](https://zenodo.org/record/7610236) from zenodo and stores at `data/ptbxl/ptbxl_segmentations/`
 
 ## 1. Preprocess Data
 In order to perform analysis as in our paper, the data needs to be preprocessed with
