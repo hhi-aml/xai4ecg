@@ -62,11 +62,8 @@ python code/tcav_analysis.py --modeltype=lenet --model_checkpoint_path=path/to/m
 ```
 This will apply (relativ) TCAV for model (`--model_path`) and a list of concepts (`--concepts`) to a list of pathologies (`--pathologies`) for all layers and stores the results in `--output_path`.
 
-## 4. Local XAI Analysis (Saliency, GradCAM, IG, LRP)
-```
-python code/lrp_analysis.py --output_path=output/ --model_path=output/bla. --pathologies=[blub1, blub2] --strategy=single_best
-```
-This will apply LRP for model (`--model_path`) and a list of pathologies (`--pathologies`) and stores the results in `--output_path`.
+## 4. Local and Glocal XAI Analysis (Saliency, GradCAM, IG, LRP)
+See examples in `notebooks` ([Sanity Checks](https://github.com/hhi-aml/xai4ecg/blob/master/notebooks/Glocal%20XAI%20Analysis.ipynb), [Glocal Analysis](https://github.com/hhi-aml/xai4ecg/blob/master/notebooks/Glocal%20XAI%20Analysis.ipynb)
 
 
 ## Development
